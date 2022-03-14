@@ -1,0 +1,92 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,50,50)
+  Background = &HBFBFBF&
+  { Frame1 Frame
+    MoveScaled(1,1,43,8)
+    Background = &H9F9F9F&
+    Text = ("acordes")
+    { RadioButton1 RadioButton
+      MoveScaled(2,3,4,3)
+      Text = ("0")
+    }
+    { RadioButton2 RadioButton
+      MoveScaled(7,3,4,3)
+      Text = ("1")
+    }
+    { RadioButton3 RadioButton
+      MoveScaled(12,3,4,3)
+      Text = ("2")
+    }
+    { RadioButton4 RadioButton
+      MoveScaled(17,3,4,3)
+      Text = ("3")
+    }
+    { RadioButton5 RadioButton
+      MoveScaled(22,3,4,3)
+      Text = ("4")
+    }
+    { RadioButton6 RadioButton
+      MoveScaled(27,3,4,3)
+      Text = ("5")
+    }
+    { RadioButton7 RadioButton
+      MoveScaled(32,3,4,3)
+      Text = ("6")
+    }
+    { RadioButton8 RadioButton
+      MoveScaled(36,3,4,3)
+      Text = ("7")
+    }
+  }
+  { Slider1 Slider
+    MoveScaled(2,12,39,5)
+    Background = &HBFBFBF&
+    Foreground = &H1F1F1F&
+    MinValue = 200
+    MaxValue = 1000
+    PageStep = 100
+    Value = 500
+  }
+  { Button1 Button
+    MoveScaled(2,24,4,8)
+    Background = &H9F9F9F&
+    Text = ("0")
+  }
+  { Button2 Button
+    MoveScaled(8,24,4,8)
+    Background = &H9F9F9F&
+    Text = ("1")
+  }
+  { Button3 Button
+    MoveScaled(14,24,4,8)
+    Background = &H7F7F7F&
+    Text = ("2")
+  }
+  { Button4 Button
+    MoveScaled(20,24,4,8)
+    Background = &H7F7F7F&
+    Text = ("3")
+  }
+  { Button5 Button
+    MoveScaled(26,24,4,8)
+    Background = &H7F7F7F&
+    Text = ("4")
+  }
+  { Button6 Button
+    MoveScaled(32,24,4,8)
+    Background = &H7F7F7F&
+    Text = ("5")
+  }
+  { Button7 Button
+    MoveScaled(38,24,4,8)
+    Background = &H7F7F7F&
+    Text = ("6")
+  }
+  { Button8 Button
+    MoveScaled(44,24,4,8)
+    Background = &H5F5F5F&
+    Text = ("7")
+  }
+}

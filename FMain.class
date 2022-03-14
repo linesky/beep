@@ -1,0 +1,138 @@
+' Gambas class file
+
+Public acord As Integer = 500
+Public note As Integer = 10
+
+Public Sub playser()
+  Dim s As String
+  s = "beep -f " & Str(acord + note) & " -l " & Str(Slider1.Value)
+  FMain.Title = s
+  Shell s
+End
+
+
+
+
+Public Sub _new()
+
+End
+
+Public Sub Form_Open()
+
+End
+
+Public Sub RadioButton1_Click()
+acord = 400
+  
+
+End
+
+Public Sub RadioButton2_Click()
+acord = 500
+  
+
+End
+
+Public Sub RadioButton3_Click()
+
+  acord = 600
+
+End
+
+Public Sub RadioButton4_Click()
+
+  acord = 700
+
+End
+
+Public Sub RadioButton5_Click()
+
+  acord = 800
+
+End
+
+Public Sub RadioButton6_Click()
+
+  acord = 900
+
+End
+
+Public Sub RadioButton7_Click()
+
+  acord = 1000
+
+End
+
+Public Sub RadioButton8_Click()
+
+  acord = 1100
+
+End
+
+Public Sub Button1_Click()
+
+ note = 10
+ playser() 
+
+End
+
+Public Sub Button2_Click()
+
+  note = 20
+ playser() 
+
+
+End
+
+Public Sub Button3_Click()
+
+  note = 30
+ playser() 
+
+
+End
+
+Public Sub Button4_Click()
+
+  note = 40
+ playser() 
+
+
+End
+
+Public Sub Button5_Click()
+
+  note = 50
+ playser() 
+
+
+End
+
+
+
+Public Sub Button6_Click()
+
+  note = 60
+ playser() 
+
+
+End
+
+
+
+
+Public Sub Button7_Click()
+
+  note = 70
+ playser() 
+
+
+End
+
+Public Sub Button8_Click()
+
+  note = 80
+ playser() 
+
+
+End
